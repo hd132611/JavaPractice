@@ -13,26 +13,26 @@ package org.dimigo.oop;
 public class CarTest {
 
 	public static void main(String[] args) {
-		Car hyun = new Car();
-		Car kia = new Car();
-		Car sam = new Car();
-		hyun.setCompany("현대자동차");
-		hyun.setModel("제네시스");
-		hyun.setColor("검정색");
-		hyun.setMaxSpeed(225);
-		hyun.setPrice(50000000);
-		
-		kia.setCompany("기아자동차");
-		kia.setModel("K7");
-		kia.setColor("흰색");
-		kia.setMaxSpeed(246);
-		kia.setPrice(40000000);
-		
-		sam.setCompany("삼성자동차");
-		sam.setModel("SM7");
-		sam.setColor("회색");
-		sam.setMaxSpeed(200);
-		sam.setPrice(38000000);
+		Car3 hyun = new Car3("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car3 kia = new Car3("기아자동차", "K7", "흰색", 246);
+		Car3 sam = new Car3("삼성자동차", "SM7", "회색");
+//		hyun.setCompany("현대자동차");
+//		hyun.setModel("제네시스");
+//		hyun.setColor("검정색");
+//		hyun.setMaxSpeed(225);
+//		hyun.setPrice(50000000);
+//		
+//		kia.setCompany("기아자동차");
+//		kia.setModel("K7");
+//		kia.setColor("흰색");
+//		kia.setMaxSpeed(246);
+//		kia.setPrice(40000000);
+//		
+//		sam.setCompany("삼성자동차");
+//		sam.setModel("SM7");
+//		sam.setColor("회색");
+//		sam.setMaxSpeed(200);
+//		sam.setPrice(38000000);
 		
 		System.out.println(" << 자동차목록 >> ");
 		System.out.println("제조사명 : " + hyun.getCompany());
